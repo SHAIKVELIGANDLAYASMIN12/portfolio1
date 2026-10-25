@@ -1,0 +1,921 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shaik Veligandla Yasmin | Portfolio</title>
+
+    <meta name="description"
+        content="Shaik Veligandla Yasmin's developer portfolio featuring full-stack development, AI projects, skills, experience, and resume.">
+
+    <link rel="stylesheet" href="yasmin.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Three.js Import Map -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Background Glow -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            <span class="logo-symbol">&lt;</span> YASMIN
+            <span class="logo-symbol">/&gt;</span>
+        </a>
+
+        <button class="menu-toggle"
+            id="menuToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#resume" class="nav-link">Resume</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    OPEN TO OPPORTUNITIES
+                </div>
+
+                <p class="hero-intro">HELLO, I'M</p>
+
+                <h1>
+                    Shaik Veligandla
+                    <span class="gradient-text">Yasmin</span>
+                </h1>
+
+                <h2 class="hero-role">
+                    <span class="role-prefix">I'm a </span>
+                    <span id="typingText">Full Stack Developer</span>
+                    <span class="typing-cursor">|</span>
+                </h2>
+
+                <p class="hero-description">
+                    I am a Computer Science Engineering student passionate
+                    about full-stack development, problem-solving, and
+                    building intelligent applications that solve real-world
+                    problems.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <div class="hero-socials">
+
+                    <!-- Replace these with your actual profile URLs -->
+
+                    <a href="https://github.com/SHAIKVELIGANDLAYASMIN12"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="linkedin.com/in/yasmin-shaik-722a14365"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- THREE.JS ANIMATION -->
+
+            <div class="hero-visual">
+
+                <div class="visual-label label-top">
+                    <span class="label-dot"></span>
+                    CREATIVE DEVELOPER
+                </div>
+
+                <div id="three-container"></div>
+
+                <div class="floating-card card-top">
+
+                    <span class="card-icon">✦</span>
+
+                    <div>
+                        <strong>Creative</strong>
+                        <small>Problem Solver</small>
+                    </div>
+
+                </div>
+
+                <div class="floating-card card-bottom">
+
+                    <span class="card-icon">⌘</span>
+
+                    <div>
+                        <strong>Full Stack</strong>
+                        <small>Developer</small>
+                    </div>
+
+                </div>
+
+                <div class="visual-label label-bottom">
+                    THREE.JS / WEBGL
+                </div>
+
+            </div>
+
+
+            <a href="#about" class="scroll-indicator">
+                <span></span>
+                SCROLL TO EXPLORE
+            </a>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section class="section about-section" id="about">
+
+            <div class="section-heading">
+
+                <p class="section-kicker">GET TO KNOW ME</p>
+
+                <h2>
+                    About <span class="gradient-text">Me</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    A developer who enjoys learning, building, and growing.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-card about-main-card">
+
+                    <div class="card-top-line"></div>
+
+                    <p class="small-label">WHO I AM</p>
+
+                    <h3>
+                        Turning ideas into
+                        <span class="gradient-text">
+                            digital experiences.
+                        </span>
+                    </h3>
+
+                    <p>
+                        I am Shaik Veligandla Yasmin, a Computer Science
+                        Engineering student at Rajiv Gandhi University of
+                        Knowledge Technologies. I am interested in full-stack
+                        development, software engineering, and AI-powered
+                        applications.
+                    </p>
+
+                    <p>
+                        I enjoy developing practical projects, learning
+                        new technologies, and collaborating with teams to
+                        solve problems. My goal is to build useful,
+                        reliable, and user-friendly applications.
+                    </p>
+
+                    <a href="#resume" class="text-link">
+                        Explore My Resume →
+                    </a>
+
+                </div>
+
+
+                <div class="about-stats">
+
+                    <div class="stat-card">
+                        <span class="stat-number">1.5+</span>
+                        <span class="stat-label">
+                            Years of Coordination Experience
+                        </span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-number">02</span>
+                        <span class="stat-label">
+                            Featured Projects
+                        </span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-number">07+</span>
+                        <span class="stat-label">
+                            Technical Skills
+                        </span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">
+                            Curiosity to Learn
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE SECTION ================= -->
+
+        <section class="section experience-section" id="experience">
+
+            <div class="section-heading">
+
+                <p class="section-kicker">MY JOURNEY</p>
+
+                <h2>
+                    Experience &
+                    <span class="gradient-text">Leadership</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Learning to lead, collaborate, and solve problems.
+                </p>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker"></div>
+
+                    <div class="experience-card">
+
+                        <div class="experience-top">
+
+                            <div>
+
+                                <p class="small-label">
+                                    LEADERSHIP EXPERIENCE
+                                </p>
+
+                                <h3>
+                                    Career Development & Placement Cell
+                                </h3>
+
+                                <p class="experience-role">
+                                    Student Coordinator
+                                </p>
+
+                            </div>
+
+                            <span class="experience-duration">
+                                1 Year 5 Months
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Worked as a student coordinator for the Career
+                            Development and Placement Cell, supporting
+                            placement-related activities and coordinating
+                            communication between students and the placement
+                            team.
+                        </p>
+
+                        <ul class="experience-list">
+
+                            <li>
+                                Coordinated placement-related activities and
+                                communicated important information to students.
+                            </li>
+
+                            <li>
+                                Collaborated with team members to support
+                                career development and placement initiatives.
+                            </li>
+
+                            <li>
+                                Developed leadership, teamwork, communication,
+                                and problem-solving skills.
+                            </li>
+
+                            <li>
+                                Organized tasks and managed responsibilities
+                                while working toward common goals.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS SECTION ================= -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading">
+
+                <p class="section-kicker">WHAT I WORK WITH</p>
+
+                <h2>
+                    Technical <span class="gradient-text">Skills</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Technologies and tools I use to build applications.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <!-- Programming -->
+
+                <div class="skill-category">
+
+                    <h3><span>⌘</span> Programming</h3>
+
+                    <div class="skill-list">
+
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Frontend -->
+
+                <div class="skill-category">
+
+                    <h3><span>◇</span> Frontend</h3>
+
+                    <div class="skill-list">
+
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Backend -->
+
+                <div class="skill-category">
+
+                    <h3><span>⌘</span> Backend</h3>
+
+                    <div class="skill-list">
+
+                        <span class="skill-tag">Python</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Database -->
+
+                <div class="skill-category">
+
+                    <h3><span>▤</span> Database</h3>
+
+                    <div class="skill-list">
+
+                        <span class="skill-tag">MySQL</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Tools -->
+
+                <div class="skill-category">
+
+                    <h3><span>⚙</span> Tools</h3>
+
+                    <div class="skill-list">
+
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Professional -->
+
+                <div class="skill-category">
+
+                    <h3><span>✦</span> Professional Skills</h3>
+
+                    <div class="skill-list">
+
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Coordination</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS SECTION ================= -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading">
+
+                <p class="section-kicker">MY RECENT WORK</p>
+
+                <h2>
+                    Featured <span class="gradient-text">Projects</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Projects that demonstrate my technical knowledge
+                    and problem-solving approach.
+                </p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1: UNIVERSAL AI REASONING AGENT -->
+
+                <div class="project-card">
+
+                    <div class="project-visual">
+
+                        <span class="project-number">PROJECT 01</span>
+
+                        <div class="project-symbol">
+                            AI
+                        </div>
+
+                        <span class="project-type">
+                            ARTIFICIAL INTELLIGENCE
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <h3>Universal AI Reasoning Agent</h3>
+
+                        <p>
+                            An AI assistant concept designed to help users
+                            with intelligent search, reasoning, document
+                            summarization, and image-related tasks. The
+                            project explores connecting AI capabilities
+                            with external services and APIs to create a
+                            versatile digital assistant.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Python</span>
+                            <span>AI</span>
+                            <span>APIs</span>
+                            <span>Automation</span>
+
+                        </div>
+
+                        <div class="project-links">
+
+                            <!-- Replace # with your actual repository URL -->
+
+                            <a href="#"
+                                class=""
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                GitHub Repository ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 2: HOTEL MANAGEMENT SYSTEM -->
+
+                <div class="project-card">
+
+                    <div class="project-visual">
+
+                        <span class="project-number">PROJECT 02</span>
+
+                        <div class="project-symbol hotel-symbol">
+                            HM
+                        </div>
+
+                        <span class="project-type">
+                            PYTHON APPLICATION
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <h3>Hotel Management System</h3>
+
+                        <p>
+                            A Python-based application designed to manage
+                            hotel operations, including user registration,
+                            login, room management, bookings, and booking
+                            cancellations. It uses object-oriented
+                            programming and text files to store and manage
+                            application data.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Python</span>
+                            <span>OOP</span>
+                            <span>File Handling</span>
+                            <span>CRUD</span>
+
+                        </div>
+
+                        <div class="project-links">
+
+                            <!-- Replace # with your actual repository URL -->
+
+                            <a href="#"
+                                class="project-repo"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                GitHub Repository ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESUME SECTION ================= -->
+
+        <section class="section resume-section" id="resume">
+
+            <div class="section-heading">
+
+                <p class="section-kicker">MY QUALIFICATIONS</p>
+
+                <h2>
+                    My <span class="gradient-text">Resume</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Explore my education, technical skills, projects,
+                    and experience.
+                </p>
+
+            </div>
+
+
+            <div class="resume-card">
+
+                <div class="resume-icon">
+                    📄
+                </div>
+
+
+                <div class="resume-content">
+
+                    <p class="small-label">
+                        CURRICULUM VITAE
+                    </p>
+
+                    <h3>Shaik Veligandla Yasmin</h3>
+
+                    <p>
+                        Computer Science Engineering | Full Stack Developer
+                    </p>
+
+                    <div class="resume-buttons">
+
+                        <!-- Opens the PDF in the browser -->
+
+                        <a href="yasmin_resume2026.pdf"
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            View Resume ↗
+                        </a>
+
+
+                        <!-- Downloads the PDF -->
+
+                        <a href="yasmin_resume2026.pdf"
+                            class="btn btn-secondary"
+                            download="Yasmin_Resume.pdf">
+                            Download Resume ↓
+                        </a>
+
+                    </div>
+
+                    <small class="resume-note">
+                        PDF document
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT SECTION ================= -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="section-heading">
+
+                <p class="section-kicker">LET'S CONNECT</p>
+
+                <h2>
+                    Contact <span class="gradient-text">Me</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Have an opportunity or project idea?
+                    I'd love to hear from you.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <!-- Contact Information -->
+
+                <div class="contact-card contact-info">
+
+                    <h3>Let's Talk</h3>
+
+                    <p>
+                        I am interested in software development opportunities,
+                        internships, collaborative projects, and learning
+                        from experienced developers.
+                    </p>
+
+
+                    <div class="contact-detail">
+
+                        <div class="contact-detail-icon">
+                            ✉
+                        </div>
+
+                        <div>
+
+                            <small>Email</small>
+
+                            <!-- Replace with your real email -->
+
+                            <a href="yashuyashar59@example.com">
+                                yashuyashar59@gmail.com
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <div class="contact-detail-icon">
+                            in
+                        </div>
+
+                        <div>
+
+                            <small>LinkedIn</small>
+
+                            <!-- Replace with your actual profile URL -->
+
+                            <a href="linkedin.com/in/yasmin-shaik-722a14365"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Connect on LinkedIn ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <div class="contact-detail-icon">
+                            GH
+                        </div>
+
+                        <div>
+
+                            <small>GitHub</small>
+
+                            <!-- Replace with your actual profile URL -->
+
+                            <a href="https://github.com/SHAIKVELIGANDLAYASMIN12"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Explore GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Contact Form -->
+
+                <div class="contact-card">
+
+                    <form class="contact-form" id="contactForm">
+
+                        <h3>Send a Message</h3>
+
+
+                        <div class="form-group">
+
+                            <label for="name">Your Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">Your Email</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">Your Message</label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Write your message..."
+                                required></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Message ↗
+                        </button>
+
+
+                        <p
+                            class="form-status"
+                            id="formStatus"
+                            role="status"
+                            aria-live="polite">
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <a href="#home" class="footer-logo">
+            <span>&lt;</span> YASMIN <span>/&gt;</span>
+        </a>
+
+        <p>
+            © <span id="currentYear"></span>
+            Shaik Veligandla Yasmin. All rights reserved.
+        </p>
+
+        <a href="#home" class="text-link">
+            Back to Top ↑
+        </a>
+
+    </footer>
+
+
+    <!-- JavaScript Module -->
+    <script type="module" src="yasmin.js"></script>
+
+    <!-- Footer Year -->
+    <script>
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
